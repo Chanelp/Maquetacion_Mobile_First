@@ -93,10 +93,9 @@ header img {
 
 .header--title-container .header--button {
   position: absolute;
-  top: 270px;
-  left: calc(50% - 118px);
+  top: calc(100% - 24px);
+  left: calc(50% - 114px);
   display: block;
-  margin-top: 35px;
   padding: 15px;
   width: 229px;
   height: 48px;
