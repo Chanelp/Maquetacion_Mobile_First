@@ -8,15 +8,15 @@
 
 :root {
   /* Fuentes */
-  --font-sans:'DM Sans', sans-serif;
-	--font-inter:'Inter', sans-serif;
-	--size-300:300;
-	--size-400:400;
-	--size-500:500;
-	--size-700:700;
-	--background:#E5E5E5;
-  
-	--linear-gradient:207.8deg, #201E1C 16.69%, #F7931A 100%;
+  --font-sans: "DM Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --size-300: 300;
+  --size-400: 400;
+  --size-500: 500;
+  --size-700: 700;
+  --background: #e5e5e5;
+
+  --linear-gradient: 207.8deg, #201e1c 16.69%, #f7931a 100%;
   /* Colores */
   --bitcoin-orange: #f7931a;
   --soft-orange: #ffe9d5;
@@ -38,12 +38,39 @@
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html{
-    font-size: 62.5%;
-    font-family: "DM Sans", sans-serif;
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+header{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 324px;
+  height: 334px;
+  text-align: center;
+}
+
+header img {
+  width: 150;
+  height: 24px;
+  margin-top: 60px;
+  align-self: center;
+}
+
+.header--title-container{
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  height: 218px;
+  margin-top: 40px;
+  text-align: center;
+  align-self: center;
 }
