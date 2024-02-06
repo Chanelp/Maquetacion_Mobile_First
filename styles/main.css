@@ -7,6 +7,16 @@
 */
 
 :root {
+  /* Fuentes */
+  --font-sans:'DM Sans', sans-serif;
+	--font-inter:'Inter', sans-serif;
+	--size-300:300;
+	--size-400:400;
+	--size-500:500;
+	--size-700:700;
+	--background:#E5E5E5;
+  
+	--linear-gradient:207.8deg, #201E1C 16.69%, #F7931A 100%;
   /* Colores */
   --bitcoin-orange: #f7931a;
   --soft-orange: #ffe9d5;
@@ -17,6 +27,14 @@
   --grey: #bababa;
   --off-white: #faf8f7;
   --just-white: #fff;
+
+  /* line height  */
+  --line-height-inter-small: 18px;
+  --line-height-inter-normal: 23px;
+  --line-height-inter-large: 26px;
+
+  --line-height-inter-small: 15px;
+  --line-height-inter-normal: 19px;
 }
 
 * {
