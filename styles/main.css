@@ -366,7 +366,6 @@ main {
   color: #808080;
 }
 
-
 .bitcoin-img-container{
   width: 100%;
   min-width: 320px;
@@ -385,3 +384,5 @@ main {
   line-height: 2.6rem;
   color: var(--just-white);
 }
+
+
