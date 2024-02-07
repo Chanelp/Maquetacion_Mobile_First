@@ -276,7 +276,7 @@ main {
   width: 100%;
   min-width: 320px;
   height: auto;
-  padding: 20px 10px;
+  padding: 50px 16px;
   background-color: var(--warm-black);
 }
 
@@ -294,7 +294,6 @@ main {
   min-width: 288px;
   height: auto;
   margin: 0 auto;
-  margin-top: 50px;
   text-align: center;
 }
 
