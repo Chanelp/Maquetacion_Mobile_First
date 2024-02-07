@@ -244,3 +244,30 @@ main {
   margin-left: 10px;
   background-image: url("../assets/icons/trending-up.svg");
 }
+
+.currency-table--date{
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 8px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  background-color: var(--soft-orange);
+  border-radius: 8px;
+}
+
+.currency-table--date p{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+  font-weight: 300;
+}
+
+.commission-table .currency-table--title{
+  margin-top: 35px;
+  color: var(--secondary-blue);
+}
+
+.commission-table .currency-table--date{
+  background-color: var(--soft-blue);
+}
