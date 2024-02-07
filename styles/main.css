@@ -118,7 +118,6 @@ header img {
   background-image: url("../assets/icons/down-arrow.svg");
 }
 
-
 main {
   width: 100%;
   min-width: 320px;
@@ -126,7 +125,7 @@ main {
   background-color: var(--off-white);
 }
 
-.main-exchange-container{
+.main-exchange-container {
   width: 100%;
   height: auto;
   padding-top: 80px;
@@ -134,14 +133,14 @@ main {
   text-align: center;
 }
 
-.main-exchange-container--title{
+.main-exchange-container--title {
   width: 90%;
   min-width: 288px;
   max-width: 900px;
   margin: 0 auto;
 }
 
-.main-exchange-container .backgroundImg{
+.main-exchange-container .backgroundImg {
   width: 200px;
   height: 200px;
   margin: 0 auto;
@@ -152,7 +151,7 @@ main {
   background-repeat: no-repeat;
 }
 
-.main-exchange-container h2{
+.main-exchange-container h2 {
   margin-bottom: 30px;
   font-size: 2.4rem;
   font-weight: bold;
@@ -160,7 +159,7 @@ main {
   color: var(--black);
 }
 
-.main-exchange-container p{
+.main-exchange-container p {
   margin-bottom: 30px;
   font-size: 1.4rem;
   font-weight: bold;
@@ -168,7 +167,7 @@ main {
   color: #757575;
 }
 
-.main-tables-container{
+.main-tables-container {
   width: 70%;
   min-width: 235px;
   max-width: 500px;
@@ -176,7 +175,7 @@ main {
   margin: 0 auto;
 }
 
-.main-tables-container .currency-table--title{
+.main-tables-container .currency-table--title {
   margin-bottom: 15px;
   font-size: 1.8rem;
   font-weight: bold;
@@ -184,7 +183,7 @@ main {
   color: var(--bitcoin-orange);
 }
 
-.currency-table--container{
+.currency-table--container {
   width: 90%;
   min-width: 230px;
   max-width: 300px;
@@ -192,13 +191,13 @@ main {
   margin: 0 auto;
 }
 
-.currency-table--container table{
+.currency-table--container table {
   width: 100%;
   height: 100%;
   font-family: "Inter", sans-serif;
 }
 
-.currency-table--container td{
+.currency-table--container td {
   width: 50%;
   font-size: 1.6rem;
   font-weight: 500;
@@ -207,29 +206,29 @@ main {
   background-color: var(--just-white);
 }
 
-.table__top-left{
+.table__top-left {
   border-radius: 15px 0 0 0;
 }
 
-.table__top-right{
+.table__top-right {
   border-radius: 0 15px 0 0;
 }
 
-.table__bottom-left{
+.table__bottom-left {
   border-radius: 0 0 0 15px;
 }
 
-.table__bottom-right{
+.table__bottom-right {
   border-radius: 0 0 15px 0;
 }
 
-.currency-table--container .table__right{
+.currency-table--container .table__right {
   font-size: 1.4rem;
   line-height: 1.7rem;
   color: #757575;
 }
 
-.currency-table--container .down{
+.currency-table--container .down {
   display: inline-block;
   width: 15px;
   height: 15px;
@@ -237,7 +236,7 @@ main {
   background-image: url("../assets/icons/trending-down.svg");
 }
 
-.currency-table--container .up{
+.currency-table--container .up {
   display: inline-block;
   width: 15px;
   height: 15px;
@@ -245,7 +244,7 @@ main {
   background-image: url("../assets/icons/trending-up.svg");
 }
 
-.currency-table--date{
+.currency-table--date {
   width: 190px;
   height: 30px;
   margin: 0 auto;
@@ -256,18 +255,61 @@ main {
   border-radius: 8px;
 }
 
-.currency-table--date p{
+.currency-table--date p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: var(--warm-black);
   font-weight: 300;
 }
 
-.commission-table .currency-table--title{
+.commission-table .currency-table--title {
   margin-top: 35px;
   color: var(--secondary-blue);
 }
 
-.commission-table .currency-table--date{
+.commission-table .currency-table--date {
   background-color: var(--soft-blue);
+}
+
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+
+.product-detail--batata-logo {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: -10px;
+  left: calc(50% - 20px);
+  background-image: url("../assets/icons/batata.svg");
+}
+
+.product-detail--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.product-detail--title h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.product-detail--title p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
