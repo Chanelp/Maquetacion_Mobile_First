@@ -421,37 +421,15 @@ main {
   color: #757575;
 }
 
-.plans-container--slider{
-  margin: 20px 0;
-}
-
 .plans-container--card{
   position: relative;
   width: 70%;
-  height: 290px;
-  margin: 50px auto;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
   background-color: var(--just-white);
-  border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
-}
-
-.plans-container--card .recomendado{
-  position: absolute;
-  top: -16px;
-  left: calc(50% - 50px);
-  padding: 8px;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--just-white);
-  background-color: var(--bitcoin-orange);
-  border-radius: 8px;
-}
-
-
-.plans-container--card .plans-content{
-  width: 100%;
-  margin: 0 auto;
-}
-
-.plans-content h3{
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
 }
