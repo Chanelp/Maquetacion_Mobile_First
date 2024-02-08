@@ -1,0 +1,31 @@
+.main-tables-container {
+  display: flex;
+  width: 930px;
+  margin: 0 auto;
+}
+
+.product-cards--container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 930px;
+  margin: 0 auto;
+}
+
+.plans-container--slider {
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.bitcoin-img-container {
+  position: relative;
+}
+
+.bitcoin-img-container h2 {
+  position: absolute;
+  top: 140px;
+  left: calc(50% - 100px);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
