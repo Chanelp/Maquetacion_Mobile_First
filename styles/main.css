@@ -438,10 +438,11 @@ main {
   position: absolute;
   width: 120px;
   height: 31px;
-  padding: 6px;
+  padding: 8px;
   left: calc(50% - 60px);
   top: -15px;
   font-size: 1.2rem;
+  font-weight: bold;
   background-color: var(--bitcoin-orange);
   border-radius: 8px;
   color: var(--just-white);
@@ -458,7 +459,7 @@ main {
 .plan-card--price{
   font-size: 5.1rem;
   font-weight: bold;
-  line-height: 5.3rem;
+  line-height: 6.3rem;
   color: black;
 }
 
@@ -471,4 +472,50 @@ main {
 .plan-card--saving{
   font-size: 1.2rem;
   color: #757575;
+}
+
+.plan-card--ca{
+  width: 150px;
+  height: 48px;
+  margin-top: 20px;
+  background-color: #faf8f7;
+  border: 2px solid var(--bitcoin-orange);
+  border-radius: 4px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: black;
+  cursor: pointer;
+  outline: none;
+}
+
+.plan-card--ca span{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/icons/orange-right-arrow.svg");
+  vertical-align: text-bottom;
+}
+
+.basic{
+  background-color: var(--secondary-blue);
+}
+
+.limited{
+  background-color: var(--grey);
+  color: var(--warm-black);
+}
+
+.limited-plan {
+  background-color: #282623;
+}
+
+.limited-plan h3, .limited-plan .plan-card--price{
+  color: var(--just-white);
+}
+
+.limited-plan .plan-card--ca{
+  background-color: inherit;
+  color: var(--just-white);
 }
